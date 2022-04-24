@@ -15,7 +15,3 @@ RUN apk --no-cache -U upgrade && \
 	chown -R dev:dev /usr/src/app
 
 USER dev
-
-COPY . .
-
-CMD [ "python", "./app.py" ]
